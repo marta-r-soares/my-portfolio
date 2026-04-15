@@ -5,7 +5,7 @@ import Avatar from "../../../../assets/images/avatar.jpg"
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
-import CV from "../../../../assets/pdfs/Marta CV.pdf"
+import CV from "../../../../assets/pdfs/CV Marta Rosa.pdf"
 
 const HeroSection: React.FC = () => {
 
@@ -38,7 +38,7 @@ const HeroSection: React.FC = () => {
         // Create a link element
         const link = document.createElement('a');
         link.href = CV
-        link.download = 'Marta CV.pdf'; // Set the download attribute to specify the file name
+        link.download = 'CV Marta Rosa.pdf'; // Set the download attribute to specify the file name
         // Append the link to the body
         document.body.appendChild(link);
         // Trigger the click event
@@ -103,5 +103,6 @@ const HeroSection: React.FC = () => {
         </>
     )
 }
+
 
 export default HeroSection

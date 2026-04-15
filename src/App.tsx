@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import AboutSection from "./Pages/Home/sections/AboutSection/AboutSection"
 import HeroSection from "./Pages/Home/sections/HeroSection/HeroSection"
 import Navbar from "./components/Navbar/Navbar"
@@ -13,6 +14,16 @@ const App: React.FC = () => {
       <AboutSection />
       <ProjectsSection />
       <Footer />
+=======
+
+
+const App = () =>{ 
+
+
+  return (
+    <>
+      App
+>>>>>>> f065dffc5a88f998095be41b36583ad7932c71ec
     </>
   )
 }
